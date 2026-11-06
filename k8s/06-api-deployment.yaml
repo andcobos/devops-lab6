@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: api
-          image: ghcr.io/REEMPLAZAR_USUARIO/REEMPLAZAR_REPOSITORIO:sha-REEMPLAZAR_COMMIT
+          image: ghcr.io/andcobos/devops-lab6:sha-80fb070d346d63805c1c6ef0536d89ac3db6140a
           imagePullPolicy: IfNotPresent
           ports:
             - name: http
